@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Memory Game</title>
+
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  
+  <body>
+    <!-- Modal Design -->
+    <div id="modal">
+      <div id="modalContent">
+        <span class="close">&times;</span>
+        <h1 id="modalText">Keep Playing!</h1>
+      </div>
+    </div>
+    
+    <div class="top-area">
+      <h1 class="gameTitle toggle-text">Light and Sound Memory Game</h1>
+      <p class="instructions toggle-text">
+        Welcome to the game! Repeat back the pattern by pressing buttons.
+      </p>
+      <h1 id="waitText" class="hidden inGameText">Wait.</h1>
+      <h1 id="goText" class="hidden inGameText">Go!</h1>
+    </div>
+    
+    <button id="startBtn" class="gameBtn" onclick="startGame()">
+      <span class="btnText">Start</span>
+    </button>
+    <button id="stopBtn" class="gameBtn hidden" onclick="stopGame()">
+      <span class="btnText">Stop</span>
+    </button>
+    
+    <div id="gameButtonArea"> 
+      <button id="button1" class="btn" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" class="btn" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" class="btn" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" class="btn" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+    </div>
+    
+    <p id="guessCounterLabel" class="hidden">0 / 1</p>
+    <p id="highScoreLabel" class="toggle-text">Highscore: </p>
+    
+    
+    <footer class="footer">
+    </footer>
+  </body>
+</html>
