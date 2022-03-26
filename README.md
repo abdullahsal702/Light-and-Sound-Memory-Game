@@ -11,15 +11,17 @@ Other Features
 ![memory_game1](https://user-images.githubusercontent.com/88620119/160011460-4adb8768-83e9-4aff-930f-cacf0c326f9a.gif)
 
 
+Check out my code: https://glitch.com/edit/#!/tasteful-aware-sheet?path=index.html%3A1%3A0
+
 Features added: 
-- randomly generated pattern, game is only 8 levels 
+- Randomly generated pattern, game is only 8 levels 
 - Counter for how many guesses are left to complete level
 - When wrong tile is clicked, tile flashes red twice and game over sound is played
 - Added highscore counter
 - "wait" and "go" instructions 
-- title and instructions fade out when game starts 
-- "game over" and "you win" modal popups 
-- changed colors, buttons grow when game starts
+- Title and instructions fade out when game starts 
+- "Game Over" and "You Win" modal popups 
+- Changed colors, buttons grow when game starts
 
 ## Reflections about the light and sound memory game
 
