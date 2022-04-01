@@ -40,3 +40,7 @@ Check out my code: https://glitch.com/edit/#!/tasteful-aware-sheet?path=index.ht
 **4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc).**
 
   If I had a few more hours I would definitely go back and optimize the functions that called my animations. I was learning how to implement these animations so some of them were done by adding and removing classes to HTML elements and others were done by directly changing the class properties with JavaScript. I think the latter method was more efficient so I would standardize that throughout all my animation functions to make my code more understandable. For the sake of demo purposes, this game was only 8 levels long. Ideally, I’d want to make the game endless and track the high score for each user. Creating a multiuser backend database might be difficult to do in a short amount of time. An alternative solution to that might be to use cookies to track the high score on a particular device. Something I’d also want to add is optimization for mobile devices. I did try running the game on my phone, but the formatting is out of place and the audio doesn’t play properly. 
+  
+## Interview Recording URL Link
+
+https://www.youtube.com/watch?v=7WZyVJn9EHQ
